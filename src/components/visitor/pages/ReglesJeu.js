@@ -20,9 +20,6 @@ class RegleJeu extends Component{
     // Fonction pour passer à la question suivante
     nextQuestion = () => {
     const { currentQuestion } = this.props;
-
-    // Vérifier la question actuelle et trouver la réponse correcte
-    const currentQaSet = this.qaSet[currentQuestion];
     // Cas où aucune réponse n'est sélectionnée
     setTimeout(() => {
       // Désactiver la question actuelle

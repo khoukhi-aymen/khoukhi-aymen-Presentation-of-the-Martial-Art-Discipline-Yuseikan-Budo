@@ -43,7 +43,7 @@ class Quiz extends Component {
 
   // Fonction pour passer à la question suivante
   nextQuestion = () => {
-    const { currentQuestion, score, resetDuration } = this.props;
+    const { currentQuestion} = this.props;
 
     // Vérifier la question actuelle et trouver la réponse correcte
     const currentQaSet = this.qaSet[currentQuestion];
@@ -116,7 +116,7 @@ class Quiz extends Component {
 
   render() {
 
-    const { currentQuestion, score } = this.props;
+    const { currentQuestion} = this.props;
     return (
       <div>
         <br />
