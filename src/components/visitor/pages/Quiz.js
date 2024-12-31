@@ -30,7 +30,7 @@ class Quiz extends Component {
   // Fonction pour démarrer le timer
   startTimer = () => {
     this.timer = setInterval(() => {
-      const { duration, decrementDuration, nextQuestion } = this.props;
+      const { duration} = this.props;
 
       if (duration === 0) {
         this.props.nextQuestion(); // Passe à la question suivante si le temps expire
@@ -138,7 +138,7 @@ class Quiz extends Component {
 
           <div className="qa_body">
             <div className="qa_set active" ref={(el) => (this.qaSet[0] = el)}>
-              <h4>1-Le createur du toseikan budo?</h4>
+              <h4>1-Le créateur de youseikan budo?</h4>
               <div className="qa_ans_row" >
                 <input type="radio" name="a1" onChange={() => this.nextQuestion()} />
                 <span >Gichin Funakochi</span>
@@ -218,7 +218,7 @@ class Quiz extends Component {
             </div>
 
             <div className="qa_set" ref={(el) => (this.qaSet[4] = el)}>
-              <h4>5-la 1ere coupe de monde est faite le?</h4>
+              <h4>5- La première Coupe du Monde a eu lieu en ? </h4>
               <div className="qa_ans_row">
                 <input type="radio" name="a5" onChange={() => this.nextQuestion()}/>
                 <span>1996</span>
