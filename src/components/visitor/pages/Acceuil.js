@@ -67,6 +67,14 @@ class Acceuil extends Component {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <center>
           <video
             id="video-player"
@@ -99,6 +107,20 @@ class Acceuil extends Component {
             </tbody>
           </table>
         </center>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />

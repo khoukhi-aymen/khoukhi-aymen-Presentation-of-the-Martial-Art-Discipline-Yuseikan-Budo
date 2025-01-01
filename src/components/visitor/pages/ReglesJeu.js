@@ -53,7 +53,12 @@ class RegleJeu extends Component{
               <div className="qa_header">
                 <span>le Youseikan Budo</span>
                 <div>
-                  <img src="https://res.cloudinary.com/dp360bhny/image/upload/v1735486116/logo_akpz86.png" alt="error" width="35px" />
+                  <img
+                    id='logo'
+                    src="https://res.cloudinary.com/dp360bhny/image/upload/v1735486116/logo_akpz86.png"
+                    alt="error"
+                    width="35px"
+                  />
                 </div>
               </div>
 
@@ -198,6 +203,11 @@ class RegleJeu extends Component{
                 </div>
               )}
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />

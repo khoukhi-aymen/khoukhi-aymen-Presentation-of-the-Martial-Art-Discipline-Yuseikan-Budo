@@ -139,40 +139,74 @@ class Quiz extends Component {
           <div className="qa_body">
             <div className="qa_set active" ref={(el) => (this.qaSet[0] = el)}>
               <h4>1-Le créateur de youseikan budo?</h4>
-              <div className="qa_ans_row" >
-                <input type="radio" name="a1" onChange={() => this.nextQuestion()} />
-                <span >Gichin Funakochi</span>
+              <div className="qa_ans_row">
+                <input
+                  type="radio"
+                  name="a1"
+                  onChange={() => this.nextQuestion()}
+                />
+                <span>Gichin Funakochi</span>
               </div>
-              <div className="qa_ans_row" >
-                <input type="radio" name="a1" onChange={() => this.nextQuestion()} />
-                <span >Hirro Mochizuki</span>
+              <div className="qa_ans_row">
+                <input
+                  type="radio"
+                  name="a1"
+                  onChange={() => this.nextQuestion()}
+                />
+                <span>Hirro Mochizuki</span>
               </div>
-              <div className="qa_ans_row" >
-                <input type="radio" name="a1" valid="valid" onChange={() => this.nextQuestion()} />
-                <span >Mitchi Mochizuki</span>
+              <div className="qa_ans_row">
+                <input
+                  type="radio"
+                  name="a1"
+                  valid="valid"
+                  onChange={() => this.nextQuestion()}
+                />
+                <span>Mitchi Mochizuki</span>
               </div>
-              <div className="qa_ans_row" >
-                <input type="radio" name="a1" onChange={() => this.nextQuestion()} />
-                <span >james Figg</span>
+              <div className="qa_ans_row">
+                <input
+                  type="radio"
+                  name="a1"
+                  onChange={() => this.nextQuestion()}
+                />
+                <span>james Figg</span>
               </div>
             </div>
 
             <div className="qa_set" ref={(el) => (this.qaSet[1] = el)}>
               <h4>2-le youeikan budo est composé de?</h4>
               <div className="qa_ans_row">
-                <input type="radio" name="a2" valid="valid" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a2"
+                  valid="valid"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>11 discipline</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a2" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a2"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>10 discipline</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a2" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a2"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>5 discipline</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a2" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a2"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>8 discipline</span>
               </div>
             </div>
@@ -180,19 +214,36 @@ class Quiz extends Component {
             <div className="qa_set" ref={(el) => (this.qaSet[2] = el)}>
               <h4>3-Le youseiakn budo est fondé officiellment le?</h4>
               <div className="qa_ans_row">
-                <input type="radio" name="a3" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a3"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1972</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a3" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a3"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1973</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a3" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a3"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1974</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a3" valid="valid" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a3"
+                  valid="valid"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1975</span>
               </div>
             </div>
@@ -200,19 +251,36 @@ class Quiz extends Component {
             <div className="qa_set" ref={(el) => (this.qaSet[3] = el)}>
               <h4>4-La lettre "bu" dans le mot yoseikan budo vaut dire?</h4>
               <div className="qa_ans_row">
-                <input type="radio" name="a4" valid="valid" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a4"
+                  valid="valid"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>recherche de la paix</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a4" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a4"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>grand maison</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a4" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a4"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>droiture</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a4" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a4"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>éducation</span>
               </div>
             </div>
@@ -220,39 +288,65 @@ class Quiz extends Component {
             <div className="qa_set" ref={(el) => (this.qaSet[4] = el)}>
               <h4>5- La première Coupe du Monde a eu lieu en ? </h4>
               <div className="qa_ans_row">
-                <input type="radio" name="a5" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a5"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1996</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a5" valid="valid" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a5"
+                  valid="valid"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1997</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a5" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a5"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1998</span>
               </div>
               <div className="qa_ans_row">
-                <input type="radio" name="a5" onChange={() => this.nextQuestion()}/>
+                <input
+                  type="radio"
+                  name="a5"
+                  onChange={() => this.nextQuestion()}
+                />
                 <span>1999</span>
               </div>
             </div>
 
             <div className="qa_set" ref={(el) => (this.qaSet[5] = el)}>
               <h4>
-                votre Score total:<span id="ScoreTotal">{this.props.score}</span> sur 100
+                votre Score total:
+                <span id="ScoreTotal">{this.props.score}</span> sur 100
               </h4>
             </div>
           </div>
 
-
           {currentQuestion < 5 && (
-          <div className="qa_footer">
-            <span className="btn1" id="suivant" onClick={() => this.nextQuestion()}>
-              Suivant
-            </span>
-          </div>
-        )}
+            <div className="qa_footer">
+              <span
+                className="btn1"
+                id="suivant"
+                onClick={() => this.nextQuestion()}
+              >
+                Suivant
+              </span>
+            </div>
+          )}
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <br />

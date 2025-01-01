@@ -8,17 +8,52 @@ class PrincipalePage extends Component{
     render(){
         return (
           <div>
-            <div>
-              <p className="salutation">
-                <span className="debut">
-                  Bienvenue dans le meilleur sport Combat,
-                </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <center>
+              <div id="Page_Principale">
+                <span className="debut">Découvrer notre sport de combat,</span>
+                <br />
                 <br />
                 <span className="yskbudo">
                   <i> le Youseikan Budo</i>
                 </span>
-              </p>
-            </div>
+              </div>
+            </center>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
